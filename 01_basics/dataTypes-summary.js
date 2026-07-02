@@ -29,3 +29,25 @@ const myFunction = function () {
 console.log(typeof myFunction);
 console.log(typeof heros)
 console.log(typeof id)
+
+//*********************************** *//
+
+//Stack(Primitive) ,Heap(Non-Primitive)
+
+let myName = "Vikas";
+let anotherName = myName;
+anotherName = "Vik";
+console.log(myName);
+console.log(anotherName);
+
+let userOne= {
+    email:"random@gmail.com",
+    upi:"use@sbi",
+}
+
+let userTwo = userOne;
+
+userTwo.email = "user@gmail.com";
+console.log(userOne.email);
+console.log(userTwo.email)
+
